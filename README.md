@@ -1,1 +1,3 @@
 # TextHighlight
+
+![Demo](highlight.gif)
