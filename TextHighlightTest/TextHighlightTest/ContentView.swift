@@ -76,7 +76,7 @@ final class ContentView: UIView {
             words.append(label)
             
             let totalWidth: CGFloat = calculateTotalWidth(for: words, starts: lineStartIndex)
-            if totalWidth > UIScreen.main.bounds.width {
+            if totalWidth > frame.width {
                 currentLeftOffset = 0
                 currentTopOffest += wordHeight
                 lineStartIndex = words.count
@@ -106,7 +106,7 @@ final class ContentView: UIView {
                 word.backgroundColor = UIColor.green
             }
         } else {
-            for word in words[start...end].reversed() {
+            for word in words[start...end] {
                 word.backgroundColor = UIColor.green
             }
         }
