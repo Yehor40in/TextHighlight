@@ -17,7 +17,6 @@ final class ContentView: UIView {
     }
     
     let wordHeight: CGFloat = 30
-    let minWordWidth: CGFloat = 100
     
     var words: [UILabel] = []
     
