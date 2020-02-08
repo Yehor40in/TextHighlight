@@ -1,3 +1,3 @@
-# TextHighlight
+# TextHighlight View
 
 ![Demo](highlight.gif)
